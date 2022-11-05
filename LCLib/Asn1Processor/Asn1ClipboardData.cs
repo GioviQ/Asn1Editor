@@ -115,7 +115,7 @@ namespace LipingShare.LCLib.Asn1Processor
                 else
                 {
                     string dataStr = (string) aRetrieveObj.GetData(DataFormats.Text);
-                    if (Asn1Util.IsAsn1EncodedHexStr(dataStr))
+                    if (!string.IsNullOrWhiteSpace(dataStr) && Asn1Util.IsAsn1EncodedHexStr(dataStr))
                         retval = true;
                 }
             }

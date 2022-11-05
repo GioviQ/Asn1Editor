@@ -23,7 +23,8 @@
     <RemoteDebugMachine>
     </RemoteDebugMachine>
     <StartAction>Project</StartAction>
-    <StartArguments>c:\x.der /dump</StartArguments>
+    <StartArguments>
+    </StartArguments>
     <StartPage>
     </StartPage>
     <StartProgram>
